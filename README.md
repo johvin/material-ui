@@ -1,4 +1,4 @@
-#### Note
+# Material-UI-IE10
 
 This project is a fork from material-ui and adds compatibility support for IE10 at v0.15.2. Currently, the list of compatible components is as follows:
 

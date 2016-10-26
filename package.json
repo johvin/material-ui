@@ -1,11 +1,11 @@
 {
-  "name": "material-ui",
+  "name": "material-ui-ie10",
   "private": true,
   "author": [
     "Call-em-all Engineering Team",
     "johvin"
   ],
-  "version": "0.15.2-ie10",
+  "version": "0.15.2",
   "description": "Material Design UI components built with React",
   "main": "./src/index.js",
   "keywords": [
