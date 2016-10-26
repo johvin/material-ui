@@ -22,6 +22,7 @@ class CalendarActionButton extends Component {
         margin: 0,
         maxHeight: 48,
         padding: 0,
+        textAlign: 'right', // compact for ie10
       },
       flatButtons: {
         fontsize: 14,

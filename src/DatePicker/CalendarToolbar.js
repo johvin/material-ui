@@ -15,12 +15,20 @@ const styles = {
     fontSize: 14,
     fontWeight: '500',
     textAlign: 'center',
-    width: '100%',
+    // width: '100%',
+    // compact for ie10
+    width: 'calc(100% - 96px)',
+    display: 'block',
+    float: 'left',
   },
   titleText: {
     height: 'inherit',
     paddingTop: 12,
   },
+  button: { // compact for ie10
+    display: 'block',
+    float: 'left',
+  }
 };
 
 class CalendarToolbar extends Component {
@@ -79,6 +87,7 @@ class CalendarToolbar extends Component {
         <IconButton
           disabled={!this.props.prevMonth}
           onTouchTap={this.handleTouchTapPrevMonth}
+          style={styles.button}
         >
           {prevButtonIcon}
         </IconButton>
@@ -91,6 +100,7 @@ class CalendarToolbar extends Component {
         <IconButton
           disabled={!this.props.nextMonth}
           onTouchTap={this.handleTouchTapNextMonth}
+          style={styles.button}
         >
           {nextButtonIcon}
         </IconButton>

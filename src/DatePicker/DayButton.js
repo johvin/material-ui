@@ -22,6 +22,7 @@ function getStyles(props, context, state) {
 
   return {
     root: {
+      display: 'inline-block', // compact for ie10
       boxSizing: 'border-box',
       fontWeight: '400',
       opacity: disabled && '0.6',

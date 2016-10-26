@@ -282,6 +282,7 @@ class Calendar extends Component {
         textAlign: 'center',
       },
       weekTitleDay: {
+        display: 'inline-block', // compact for ie10
         width: 42,
       },
       transitionSlide: {

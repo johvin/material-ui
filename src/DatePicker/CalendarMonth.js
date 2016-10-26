@@ -82,6 +82,7 @@ class CalendarMonth extends Component {
       justifyContent: 'space-around',
       height: 34,
       marginBottom: 2,
+      textAlign: 'left' // compact for ie10
     },
   };
 
